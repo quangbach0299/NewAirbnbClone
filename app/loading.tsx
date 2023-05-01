@@ -1,13 +1,9 @@
-"use client";
-
-import { DotLoader } from "react-spinners";
+import Loader from "@/app/components/Loader";
 
 const Loading = () => {
-  return (
-    <div className="h-[70vh] flex flex-col justify-center items-center">
-      <DotLoader size={60} color="red" />
-    </div>
-  );
-};
-
+  return ( 
+    <Loader />
+   );
+}
+ 
 export default Loading;
