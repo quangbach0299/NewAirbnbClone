@@ -1,10 +1,11 @@
 'use client';
 
-import LoginModal from "../components/modals/LoginModal";
-import RegisterModal from "../components/modals/RegisterModal";
-import RentModal from "../components/modals/RentModal";
-import SearchModal from "../components/modals/SearchModal";
+import LoginModal from "../modals/LoginModal";
+import RegisterModal from "../modals/RegisterModal";
+import RentModal from "../modals/RentModal";
+import SearchModal from "../modals/SearchModal";
 
+ 
 const ModalsProvider = () => {
   return ( 
     <>
