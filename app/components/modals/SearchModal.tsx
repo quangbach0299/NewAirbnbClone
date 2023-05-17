@@ -6,9 +6,7 @@ import { useCallback, useMemo, useState } from "react";
 import { Range } from "react-date-range";
 import { formatISO } from "date-fns";
 import { useRouter, useSearchParams } from "next/navigation";
-
 import useSearchModal from "@/app/hooks/useSearchModal";
-
 import Modal from "./Modal";
 import Calendar from "../inputs/Calendar";
 import Counter from "../inputs/Counter";

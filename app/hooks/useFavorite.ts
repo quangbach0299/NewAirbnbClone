@@ -1,11 +1,9 @@
 import axios from "axios";
-import { useRouter } from "next/navigation";
-import { useCallback, useMemo } from "react";
-import { toast } from "react-hot-toast";
-
-import { SafeUser } from "@/app/types";
-
 import useLoginModal from "./useLoginModal";
+import { SafeUser } from "@/app/types";
+import { toast } from "react-hot-toast";
+import { useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
 
 interface IUseFavorite {
   listingId: string;
